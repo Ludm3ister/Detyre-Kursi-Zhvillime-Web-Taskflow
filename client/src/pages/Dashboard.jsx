@@ -104,7 +104,7 @@ const Dashboard = () => {
       <header className="page-head">
         <div>
           <div className="eyebrow">{isAdmin ? "All tasks" : "Your workspace"}</div>
-          <h1>Hello, {userInfo?.name?.split(" ")[0]} 👋</h1>
+          <h1>Hello, {userInfo?.name?.split(" ")[0]}</h1>
           <p>
             {isAdmin
               ? "As an admin you can see and manage every user's tasks."
