@@ -16,7 +16,8 @@ explicitly in the [Requirements checklist](#-requirements-checklist) section.
   sends it with every request.
 - **Role-based authorization** — two roles:
   - `user`: can create, read, update and delete **their own** tasks.
-  - `admin`: can see and manage **all** tasks and **all** users.
+  - `admin`: can see and manage **all** tasks and users.
+  - `superadmin`: can see and manage **all** tasks and **all** users.
 - **Task management (CRUD)**: create tasks, edit them, change their status
   (todo / in-progress / done), set priority and due dates, search and filter,
   and delete them.
